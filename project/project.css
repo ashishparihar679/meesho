@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    flex-wrap: wrap;
+
+}
+.container a{
+    text-decoration: none;
+   color: rgb(70, 127, 14);
+}
+.Navbar{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 11px;
+    padding-right: 40px;
+}
+.Navbar h2 input{
+    /* border: none; */
+   padding: 2px;
+   padding-right: 50px;
+   border-radius: 10px;
+}
+.Navbar h2{
+    border: none;
+}
+#ch1{
+    font-family: "Anton", sans-serif;
+    color: rgb(92, 9, 92);
+    font-size: 40px;
+    margin-left: 50px;
+    /* padding-bottom: 15px; */
+
+}
+.Navbar h1{
+    font-family: "Rajdhani", sans-serif;
+    font-size: small;
+    /* font-weight: lighter; */
+    /* padding: 20px; */
+    /* margin-bottom: 20px; */
+    /* margin-top: 20px; */
+    
+}
+.Navbar h2{
+    font-family: "Rajdhani", sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    /* border: 1px solid; */
+    padding: 15px;
+    padding-right: 85px;
+    border-radius: 5px;
+}
+.Navbar2{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px;
+}
+.Navbar2 h1{
+    font-family: "Rajdhani", sans-serif;
+    font-size: small;
+}
+.icon1{
+    color: blueviolet;
+    font-size: large;
+    margin: 3px;
+}
+.icon2{
+    font-size: 15px;
+   padding-right: 1px;
+}
+.vl{
+    border: 1px solid black;
+    height: 40px;
+    /* margin-left: -9px; */
+}
+.part1 div{
+    color:black;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Anton SC", sans-serif;
+    font-weight:bolder;
+}
+
+.part1{
+    /* background-image: url("image1.jpg"); */
+    background: url(image1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.part2{
+    /* background-image: url("image1.jpg"); */
+    background: url(image1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+
+.navbar1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.navbar1 ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 80px;
+}
+#ch1 {
+
+    font-weight: bold;
+    font-family: "Anton", sans-serif;
+    color: rgb(92, 9, 92);
+    font-size: 40px;
+    margin-bottom: 10px;
+    /* text-shadow: -3px -3px  rgb(92, 9, 92); */
+
+}
+.navbar1 ul {
+    list-style: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bolder;
+}
+
+.navbar1 ul {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    font-family: "Playfair Display", serif;
+    padding-top: 10px;
+
+}
