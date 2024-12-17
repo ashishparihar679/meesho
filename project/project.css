@@ -1,143 +1,231 @@
-*{
-    margin: 0;
+* {
     padding: 0;
-}
-.container{
-    flex-wrap: wrap;
-
-}
-.container a{
-    text-decoration: none;
-   color: rgb(70, 127, 14);
-}
-.Navbar{
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 11px;
-    padding-right: 40px;
-}
-.Navbar h2 input{
-    /* border: none; */
-   padding: 2px;
-   padding-right: 50px;
-   border-radius: 10px;
-}
-.Navbar h2{
-    border: none;
-}
-#ch1{
-    font-family: "Anton", sans-serif;
-    color: rgb(92, 9, 92);
-    font-size: 40px;
-    margin-left: 50px;
-    /* padding-bottom: 15px; */
-
-}
-.Navbar h1{
-    font-family: "Rajdhani", sans-serif;
-    font-size: small;
-    /* font-weight: lighter; */
-    /* padding: 20px; */
-    /* margin-bottom: 20px; */
-    /* margin-top: 20px; */
-    
-}
-.Navbar h2{
-    font-family: "Rajdhani", sans-serif;
-    font-size: small;
-    font-weight: lighter;
-    /* border: 1px solid; */
-    padding: 15px;
-    padding-right: 85px;
-    border-radius: 5px;
-}
-.Navbar2{
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 18px;
-}
-.Navbar2 h1{
-    font-family: "Rajdhani", sans-serif;
-    font-size: small;
-}
-.icon1{
-    color: blueviolet;
-    font-size: large;
-    margin: 3px;
-}
-.icon2{
-    font-size: 15px;
-   padding-right: 1px;
-}
-.vl{
-    border: 1px solid black;
-    height: 40px;
-    /* margin-left: -9px; */
-}
-.part1 div{
-    color:black;
-    text-align: center;
-    font-size: 40px;
-    font-family: "Anton SC", sans-serif;
-    font-weight:bolder;
+    margin: 0;
 }
 
-.part1{
-    /* background-image: url("image1.jpg"); */
-    background: url(image1.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-
+.container {
+    position: sticky;
+    top: 1px;
 }
-.part2{
-    /* background-image: url("image1.jpg"); */
-    background: url(image1.jpg);
-background-repeat: no-repeat;
-background-size: cover;
 
+.container2 div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+#box1,
+#box2,
+#box3 {
+    background-color: aquamarine;
+    border: 5px solid red;
 }
 
 
-
-.navbar1{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: whitesmoke;
-}
-.navbar1 ul{
-    display: flex;
-    align-items: center;
+.navbar1 ul {
     list-style: none;
-    gap: 80px;
+    font-weight: bolder;
 }
-#ch1 {
+.navbar1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.navbar1 ul {
+    display: flex;
+    justify-content:space-around;
+    font-family: "Playfair Display", serif;
+    gap: 60px;
 
+}
+
+.navbar2 ul {
+    background-size: cover;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    padding: 15px;
+}
+
+.navbar2 div {
+    padding: 50px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.flex section {
+    display: flex;
+    gap: 50px;
+}
+.flex a{
+    font-weight: bolder;
+}
+
+
+section a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#ch1 {
+    list-style: none;
     font-weight: bold;
     font-family: "Anton", sans-serif;
     color: rgb(92, 9, 92);
     font-size: 40px;
     margin-bottom: 10px;
-    /* text-shadow: -3px -3px  rgb(92, 9, 92); */
+    margin-left: 70px;
 
 }
-.navbar1 ul {
-    list-style: none;
-    padding-left: 40px;
-    padding-right: 40px;
+
+.vl {
+    border: 1px solid black;
+    height: 30px;
+}
+
+.navbar2 li {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Playfair Display", serif;
+    padding-bottom: 20px;
+    font-weight: bolder;
+
+}
+
+.head1 input {
+    /* border: none; */
+    font-size: 15px;
+    padding: 12px;
+    padding-right: 100px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+
+.part1 div {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Anton SC", sans-serif;
     font-weight: bolder;
 }
 
-.navbar1 ul {
-    background-color: whitesmoke;
+.gridwrapper {
+    /* background-color: yellow; */
+    background-image: url(../images/virat.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* height: 100vh; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 20px;
     display: flex;
-    justify-content: space-around;
-    /* align-items: center; */
-    font-family: "Playfair Display", serif;
-    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+    border-radius: 20px;
+    margin-top: -1px;
+}
+
+.gridch1,
+.gridch2,
+.gridch3 {
+    background-color: lightgrey;
+    border: 3px solid;
+    border-radius: 10px;
 
 }
+
+.gridch1 {
+    height: 400px;
+    width: 400px;
+    background-image: url(../images/virat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: slider;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+
+}
+#check{
+    display: none;
+}
+#checkbtn{
+    display: none;
+    font-size: 30px;
+}
+#check:checked ~ .navbar1 ul{
+    left: 0;
+}
+@media(max-width: 950px){
+    #checkbtn{
+        display: block;
+    }
+    .navbar1 ul{
+        display: block;
+        text-align: center;
+    position: fixed;
+    top: 60px;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    background-color:whitesmoke;
+    }
+    .navbar1 ul li{
+        font-size: 50px;
+        padding: 15px;
+        text-align:center;
+    }
+    .vl{
+        display: none;
+    }
+    .navbar2{
+        display: none;
+    }
+}
+
+
+
+
+@keyframes slider {
+    0% {
+        background-image: url(../images/image1.jpg);
+    }
+
+    50% {
+        background-image: url(../images/download1.jpg);
+    }
+
+    75% {
+        background-image: url(../images/download2.jpg);
+    }
+
+    100% {
+        background-image: url(../images/virat.jpg);
+    }
+}
+
+.gridch1 img {
+    height: 400px;
+    width: 400px;
+
+}
+
+.gridch2 {
+    height: 300px;
+    width: 300px;
+    margin-top: 200px;
+}
+
+.gridch3 {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 200px;
+}
+
