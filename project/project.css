@@ -112,47 +112,11 @@ section a {
     font-size: 30px;
     font-family: "Anton SC", sans-serif;
     font-weight: bolder;
+    /* text-shadow: 3px 4px 1px gray; */
 }
 
-.gridwrapper {
-    /* background-color: yellow; */
-    background-image: url(../images/virat.jpg);
-    /* background-repeat: no-repeat; */
-    background-size: cover;
-    /* height: 100vh; */
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto;
-    gap: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 150px;
-    border-radius: 20px;
-    margin-top: -1px;
-}
 
-.gridch1,
-.gridch2,
-.gridch3 {
-    background-color: lightgrey;
-    border: 3px solid;
-    border-radius: 10px;
 
-}
-
-.gridch1 {
-    height: 400px;
-    width: 400px;
-    background-image: url(../images/virat.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation-name: slider;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
-
-}
 #check{
     display: none;
 }
@@ -190,42 +154,184 @@ section a {
     }
 }
 
+.grid_con1{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(1,auto);
+    gap: 50px;
+    background-image: url(../images/navb.jpg);
+    background-size: cover;
+    /* display: flex;
+    justify-content: center; */
+    align-items: center;
+    margin: 50px;
+    border-radius: 20px;
+    margin-top: -1px;
+}
+.grid_ch1,.grid_ch2,.grid_ch3{
+    background-color: lightgrey;
+    border: 3px solid black;
+    border-radius: 20px;
+}
 
+.grid_ch1 {
+    
+    padding: 70px;
+    padding-top: 250px;
+    margin-left: 50px;
+    background-image: url(../images/virat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: slider1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
 
+}
 
-@keyframes slider {
+.grid_ch2 {
+    /* height: 300px; */
+    padding: 50px;
+    padding-top: 190px;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    background-size: cover;
+    animation-name: slider2;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+}
+.grid_ch3{
+    padding: 50px;
+    padding-top: 190px;
+    margin-bottom: 200px;
+    margin-right: 50px;
+    background-size: cover;
+    animation-name: slider3;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+#gridbtn1{
+    margin-top: -210px;
+    margin-left: 50px;
+    padding:5px;
+    font-family: "Playfair Display", serif;
+    font-weight:bolder;
+    font-size: 20px;
+    /* text-shadow: 3px 4px 1px green; */
+    border-radius: 30px;   
+}
+#gridbtn1:hover{
+    background-color:  rgb(244, 37, 244);
+    text-shadow: 2px 2px 2px green;
+    color: aliceblue;
+}
+#gridbtn2:hover{
+    background-color:  rgb(244, 37, 244);
+    text-shadow: 2px 2px 2px green;
+    color: aliceblue;
+}
+#gridbtn3:hover{
+    background-color:  rgb(244, 37, 244);
+    text-shadow: 2px 2px 2px green;
+    color: aliceblue;
+}
+#gridbtn2{
+    margin-top: -100px;
+  
+    padding:5px;
+    font-family: "Playfair Display", serif;
+    font-weight:bolder;
+    font-size: 20px;
+    /* text-shadow: 3px 4px 1px green; */
+    border-radius: 30px;
+}
+#gridbtn3{
+    margin-top: -500px;
+   
+    padding:5px;
+    font-family: "Playfair Display", serif;
+    font-weight:bolder;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px green;
+    border-radius: 30px;
+}
+
+@media screen and (min-width:400px) and (max-width:600px){
+    .grid_con{
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(3,auto);
+    }
+    .grid_ch1,.grid_ch2,.grid_ch3{
+        padding: 100px;
+    }
+    
+}
+@media screen and (max-width:399px){
+    .grid_con{
+        grid-template-columns: repeat(1,auto);
+        grid-template-rows: repeat(3,auto);
+    }
+    .grid_ch1,.grid_ch2,.grid_ch3{
+        padding: 70px;
+    }
+}
+
+@keyframes slider1 {
     0% {
-        background-image: url(../images/image1.jpg);
+        background-image: url(../images/english-willow-cricket-bat.jpg);
     }
 
     50% {
-        background-image: url(../images/download1.jpg);
+        background-image: url(../images/grid2.jpg);
     }
 
     75% {
-        background-image: url(../images/download2.jpg);
+        background-image: url(../images/equipment.jpg);
     }
 
     100% {
-        background-image: url(../images/virat.jpg);
+        background-image: url(../images/baseball.jpg);
+    }
+}
+@keyframes slider2 {
+    0% {
+        background-image: url(../images/lcd.avif);
+    }
+    25%{
+        background-image: url(../images/pexels-eyupcan-timur-424989336-21578418.jpg);
+    }
+
+    50% {
+        background-image: url(../images/pexels-monoar-rahman-22660-109371.jpg);
+    }
+
+    75% {
+        background-image: url(../images/i\ phone.jpg);
+    }
+
+    100% {
+        background-image: url(../images/tablet.jpg);
+    }
+}
+@keyframes slider3 {
+    0% {
+        background-image: url(../images/virat1.jpg);
+    }
+    25%{
+        background-image: url(../images/saree.jpg);
+    }
+
+    50% {
+        background-image: url(../images/winter.jpg);
+    }
+
+    75% {
+        background-image: url(../images/ritik.jpg);
+    }
+
+    100% {
+        background-image: url(../images/jeans.jpg);
     }
 }
 
-.gridch1 img {
-    height: 400px;
-    width: 400px;
 
-}
-
-.gridch2 {
-    height: 300px;
-    width: 300px;
-    margin-top: 200px;
-}
-
-.gridch3 {
-    height: 300px;
-    width: 300px;
-    margin-bottom: 200px;
-}
 

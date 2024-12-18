@@ -5,7 +5,7 @@
 
 .container {
     position: sticky;
-    top: 1px;
+    /* top: 1px; */
 }
 
 .container2 div {
@@ -112,7 +112,7 @@ section a {
     font-size: 30px;
     font-family: "Anton SC", sans-serif;
     font-weight: bolder;
-    /* text-shadow: 3px 4px 1px gray; */
+   
 }
 
 
@@ -160,6 +160,7 @@ section a {
     grid-template-rows: repeat(1,auto);
     gap: 50px;
     background-image: url(../images/navb.jpg);
+    /* background-image: url(../images/gridebg2.jpg); */
     background-size: cover;
     /* display: flex;
     justify-content: center; */
@@ -167,6 +168,13 @@ section a {
     margin: 50px;
     border-radius: 20px;
     margin-top: -1px;
+}
+.grid_ch1:hover{
+    border: 5px solid rgb(255, 85, 0);
+}.grid_ch2:hover{
+    border: 5px solid rgb(255, 85, 0);
+}.grid_ch3:hover{
+    border: 5px solid rgb(255, 85, 0);
 }
 .grid_ch1,.grid_ch2,.grid_ch3{
     background-color: lightgrey;
@@ -185,6 +193,7 @@ section a {
     animation-name: slider1;
     animation-duration: 15s;
     animation-iteration-count: infinite;
+
 }
 
 .grid_ch2 {
@@ -209,14 +218,29 @@ section a {
     animation-iteration-count: infinite;
 }
 #gridbtn1{
-    margin-top: -200px;
+    margin-top: -210px;
     margin-left: 50px;
     padding:5px;
     font-family: "Playfair Display", serif;
     font-weight:bolder;
     font-size: 20px;
     /* text-shadow: 3px 4px 1px green; */
-    border-radius: 30px;
+    border-radius: 30px;   
+}
+#gridbtn1:hover{
+    background-color:  rgb(244, 37, 244);
+    text-shadow: 2px 2px 2px green;
+    color: aliceblue;
+}
+#gridbtn2:hover{
+    background-color:  rgb(244, 37, 244);
+    text-shadow: 2px 2px 2px green;
+    color: aliceblue;
+}
+#gridbtn3:hover{
+    background-color:  rgb(244, 37, 244);
+    text-shadow: 2px 2px 2px green;
+    color: aliceblue;
 }
 #gridbtn2{
     margin-top: -100px;
@@ -229,15 +253,16 @@ section a {
     border-radius: 30px;
 }
 #gridbtn3{
-    margin-top: -450px;
+    margin-top: -500px;
    
     padding:5px;
     font-family: "Playfair Display", serif;
     font-weight:bolder;
     font-size: 15px;
-    /* text-shadow: 3px 4px 1px green; */
+    text-shadow: 2px 2px 2px green;
     border-radius: 30px;
 }
+
 @media screen and (min-width:400px) and (max-width:600px){
     .grid_con{
         grid-template-columns: repeat(2,auto);
@@ -300,7 +325,7 @@ section a {
         background-image: url(../images/virat1.jpg);
     }
     25%{
-        /* background-image: url(../images/saree.jpg); */
+        background-image: url(../images/saree.jpg);
     }
 
     50% {
@@ -318,3 +343,45 @@ section a {
 
 
 
+
+
+
+/* about page css .......... */
+
+.aboutdiv0 h1{
+    text-transform: uppercase;
+    margin-bottom: 13px;
+    /* text-decoration: underline; */
+    /* text-decoration-style: dotted; */
+    text-align: center;
+   font-size: 50px;
+}
+
+.aboutdiv{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  background-color: darkgray;
+  
+  
+
+}
+.aboutdiv h1{
+    text-transform: uppercase;
+    margin-bottom: 13px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    margin-top: 10px;
+}
+.aboutdiv ul{
+    list-style: none;
+    
+    font-size: 15px;  
+}
+.aboutdiv3 i{
+    padding: 10px;
+    font-size: 40px;
+}
+#play{
+    border-radius: 10px;
+}
