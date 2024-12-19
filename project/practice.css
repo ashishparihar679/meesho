@@ -263,23 +263,41 @@ section a {
     border-radius: 30px;
 }
 
-@media screen and (min-width:400px) and (max-width:600px){
-    .grid_con{
-        grid-template-columns: repeat(2,auto);
+@media screen and (min-width:400px) and (max-width:800px){
+    .grid_con1{
+        grid-template-columns: repeat(1,auto);
         grid-template-rows: repeat(3,auto);
     }
     .grid_ch1,.grid_ch2,.grid_ch3{
         padding: 100px;
     }
+    #gridbtn1{
+        margin-top: -2000px;
+    }
+    #gridbtn2{
+        margin-top: -1100px;
+    }
+    #gridbtn3{
+        margin-top: -600px;
+    }
     
 }
 @media screen and (max-width:399px){
-    .grid_con{
+    .grid_con1{
         grid-template-columns: repeat(1,auto);
         grid-template-rows: repeat(3,auto);
     }
     .grid_ch1,.grid_ch2,.grid_ch3{
         padding: 70px;
+    }
+    #gridbtn1{
+        margin-top: -1800px;
+    }
+    #gridbtn2{
+        margin-top: -1000px;
+    }
+    #gridbtn3{
+        margin-top: -650px;
     }
 }
 
@@ -384,4 +402,55 @@ section a {
 }
 #play{
     border-radius: 10px;
+}
+@media screen and (max-width: 800px)and (min-width: 400px){
+    .aboutdiv{
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+    .aboutdiv3 {
+   display: flex;
+    }
+    .aboutdiv3 h1 {
+        display: none;
+    }
+}
+@media screen and (max-width: 400px){
+    .aboutdiv{
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+}
+
+/* page 2.............. */
+.page2_1{
+    display: flex;
+    gap: 50px;
+    margin-top: 90px;
+    
+}
+.page2_1 img{
+    margin-left: 100px;
+   
+}
+.page2_1 span{
+font-size: 60px; 
+font-family: "Playfair Display", serif;
+}
+#span1{
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+   
+}
+#span2{
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+}
+#span3{
+   
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    margin-left: 100px;
+    margin-right: 20px;
+    
 }
