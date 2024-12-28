@@ -142,7 +142,7 @@ section a {
     background-color:whitesmoke;
     }
     .navbar1 ul li{
-        font-size: 50px;
+        font-size: 40px;
         padding: 15px;
         text-align:center;
     }
@@ -167,15 +167,15 @@ section a {
     margin-top: -1px;
 }
 .grid_ch1:hover{
-    border: 5px solid rgb(255, 85, 0);
+    border: 5px solid rgb(0, 42, 255);
 }.grid_ch2:hover{
-    border: 5px solid rgb(255, 85, 0);
+    border: 5px solid rgb(0, 42, 255);
 }.grid_ch3:hover{
-    border: 5px solid rgb(255, 85, 0);
+    border: 5px solid rgb(0, 42, 255);
 }
 .grid_ch1,.grid_ch2,.grid_ch3{
     background-color: lightgrey;
-    border: 3px solid black;
+    border: 2px solid rgb(255, 85, 0);
     border-radius: 20px;
 }
 
@@ -252,11 +252,12 @@ section a {
 #gridbtn3{
     margin-top: -500px;
    
+    margin-right: 45px;
     padding:5px;
     font-family: "Playfair Display", serif;
     font-weight:bolder;
     font-size: 15px;
-    text-shadow: 2px 2px 2px green;
+    /* text-shadow: 2px 2px 2px green; */
     border-radius: 30px;
 }
 
@@ -360,9 +361,9 @@ section a {
 .grid_con2{
     display: grid;
     grid-template-columns: repeat(4,auto);
-    grid-template-rows: repeat(1,auto);
+    grid-template-rows: repeat(2,auto);
     gap: 30px;
-    background-image: url(../images/grid2bg.jpg);
+    background-image: url(../images/grid2bg1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
@@ -371,20 +372,23 @@ section a {
     margin-top: -1px;
 }
 
-.grid_ch1:hover{
-    border: 5px solid rgb(255, 85, 0);
-}.grid_ch2:hover{
-    border: 5px solid rgb(255, 85, 0);
-}.grid_ch3:hover{
-    border: 5px solid rgb(255, 85, 0);
-}
-.grid_ch1,.grid_ch2,.grid_ch3a,.grid_ch4a{
-    background-color: lightgrey;
-    border: 3px solid black;
-    border-radius: 20px;
+.grid_ch1a:hover{
+    border: 5px solid rgb(0, 42, 255);
+}.grid_ch2a:hover{
+    border: 5px solid rgb(0, 42, 255);
+}.grid_ch3a:hover{
+    border: 5px solid rgb(0, 42, 255);
+}.grid_ch4a:hover{
+    border: 5px solid rgb(0, 42, 255);
 }
 
-.grid_ch1 {
+.grid_ch1a,.grid_ch2a,.grid_ch3a,.grid_ch4a{
+    background-color: lightgrey;
+    border: 2px solid orangered;
+    border-radius: 10px;
+}
+
+.grid_ch1a {
     
     padding: 50px;
     padding-top: 250px;
@@ -392,20 +396,20 @@ section a {
     background-image: url(../images/virat.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    animation-name: slider1;
+    animation-name: slider1a;
     animation-duration: 15s;
     animation-iteration-count: infinite;
 
 }
 
-.grid_ch2 {
+.grid_ch2a {
     /* height: 300px; */
     padding: 50px;
     padding-top: 190px;
     margin-top: 250px;
     margin-bottom: 50px;
     background-size: cover;
-    animation-name: slider2;
+    animation-name: slider2a;
     animation-duration: 18s;
     animation-iteration-count: infinite;
 }
@@ -415,7 +419,7 @@ section a {
     margin-bottom: 200px;
     margin-right: 50px;
     background-size: cover;
-    animation-name: slider3;
+    animation-name: slider3a;
     animation-duration: 20s;
     animation-iteration-count: infinite;
 }
@@ -425,11 +429,11 @@ section a {
     /* margin-bottom: 10px; */
     margin-right: 50px;
     background-size: cover;
-    animation-name: slider3;
-    animation-duration: 20s;
+    animation-name: slider4a;
+    animation-duration: 21s;
     animation-iteration-count: infinite;
 }
-#gridbtn1{
+#gridbtn1a{
     margin-top: -210px;
     margin-left: 50px;
     padding:5px;
@@ -439,22 +443,7 @@ section a {
     /* text-shadow: 3px 4px 1px green; */
     border-radius: 30px;   
 }
-#gridbtn1:hover{
-    background-color:  rgb(244, 37, 244);
-    text-shadow: 2px 2px 2px green;
-    color: aliceblue;
-}
-#gridbtn2:hover{
-    background-color:  rgb(244, 37, 244);
-    text-shadow: 2px 2px 2px green;
-    color: aliceblue;
-}
-#gridbtn3:hover{
-    background-color:  rgb(244, 37, 244);
-    text-shadow: 2px 2px 2px green;
-    color: aliceblue;
-}
-#gridbtn2{
+#gridbtn2a{
     margin-top: -100px;
   
     padding:5px;
@@ -464,110 +453,170 @@ section a {
     /* text-shadow: 3px 4px 1px green; */
     border-radius: 30px;
 }
-#gridbtn3{
+#gridbtn3a{
     margin-top: -500px;
-   
     padding:5px;
+    margin-right: 45px;
     font-family: "Playfair Display", serif;
     font-weight:bolder;
-    font-size: 15px;
-    text-shadow: 2px 2px 2px green;
+    font-size: 20px;
+    /* text-shadow: 2px 2px 2px green; */
     border-radius: 30px;
 }
+#gridbtn4a{
+    margin-top: -300px;
+    padding:5px;
+    margin-right: 45px;
+    font-family: "Playfair Display", serif;
+    font-weight:bolder;
+    font-size: 20px;
+    /* text-shadow: 2px 2px 2px green; */
+    border-radius: 30px;
+}
+#gridbtn1a:hover{
+    background-color:  rgb(244, 37, 244);
+    text-shadow: 2px 2px 2px green;
+    color: aliceblue;
+}
+#gridbtn2a:hover{
+    background-color:  rgb(244, 37, 244);
+    text-shadow: 2px 2px 2px green;
+    color: aliceblue;
+}
+#gridbtn3a:hover{
+    background-color:  rgb(244, 37, 244);
+    text-shadow: 2px 2px 2px green;
+    color: aliceblue;
+}
+#gridbtn4a:hover{
+    background-color:  rgb(244, 37, 244);
+    text-shadow: 2px 2px 2px green;
+    color: aliceblue;
+}
+
 
 @media screen and (min-width:400px) and (max-width:800px){
-    .grid_con1{
+    .grid_con2{
         grid-template-columns: repeat(1,auto);
-        grid-template-rows: repeat(3,auto);
+        grid-template-rows: repeat(4,auto);
     }
-    .grid_ch1,.grid_ch2,.grid_ch3{
+    .grid_ch1a,.grid_ch2a,.grid_ch3a,.grid_ch4a{
         padding: 100px;
     }
-    #gridbtn1{
-        margin-top: -2000px;
+    #gridbtn1a{
+        margin-top: -2400px;
     }
-    #gridbtn2{
-        margin-top: -1100px;
+    #gridbtn2a{
+        margin-top: -1500px;
     }
-    #gridbtn3{
-        margin-top: -600px;
+    #gridbtn3a{
+        margin-top: -990px;
     }
-    
+    #gridbtn4a{
+        margin-top: -190px;
+    }
 }
 @media screen and (max-width:399px){
-    .grid_con1{
+    .grid_con2{
         grid-template-columns: repeat(1,auto);
-        grid-template-rows: repeat(3,auto);
+        grid-template-rows: repeat(4,auto);
     }
-    .grid_ch1,.grid_ch2,.grid_ch3{
+    .grid_ch1a,.grid_ch2a,.grid_ch3a,.grid_ch4a{
         padding: 70px;
     }
-    #gridbtn1{
-        margin-top: -1800px;
+    #gridbtn1a{
+        margin-top: -2050px;
     }
-    #gridbtn2{
-        margin-top: -1000px;
+    #gridbtn2a{
+        margin-top: -1250px;
     }
-    #gridbtn3{
-        margin-top: -650px;
+    #gridbtn3a{
+        margin-top: -850px;
+    }
+    #gridbtn4a{
+        margin-top: -150px;
     }
 }
 
-@keyframes slider1 {
+@keyframes slider1a {
     0% {
-        background-image: url(../images/english-willow-cricket-bat.jpg);
+        background-image: url(../images/pufium.jpg);
     }
 
     50% {
-        background-image: url(../images/grid2.jpg);
+        background-image: url(../images/helmet.jpg);
     }
 
     75% {
-        background-image: url(../images/equipment.jpg);
+        background-image: url(../images/cream.jpg);
+    }
+
+    85% {
+        background-image: url(../images/ring.jpg);
+    }
+    100%
+    {
+        background-image: url(../images/led.jpg);
+    }
+}
+@keyframes slider2a {
+    0% {
+        background-image: url(../images/sunglass.jpg);
+    }
+    25%{
+        background-image: url(../images/shoes.jpg);
+    }
+
+    50% {
+        background-image: url(../images/sliper.jpg);
+    }
+
+    75% {
+        background-image: url(../images/speaker.jpg);
     }
 
     100% {
-        background-image: url(../images/baseball.jpg);
+        background-image: url(../images/bag.jpg);
     }
 }
-@keyframes slider2 {
+@keyframes slider3a {
     0% {
-        background-image: url(../images/lcd.avif);
+        background-image: url(../images/watch.jpg);
     }
     25%{
-        background-image: url(../images/pexels-eyupcan-timur-424989336-21578418.jpg);
+        background-image: url(../images/cloth1.jpg);
     }
 
     50% {
-        background-image: url(../images/pexels-monoar-rahman-22660-109371.jpg);
+        background-image: url(../images/hair.jpg);
     }
 
     75% {
-        background-image: url(../images/iphone.jpg);
-    }
-
-    100% {
-        background-image: url(../images/ipad.jpg);
-    }
-}
-@keyframes slider3 {
-    0% {
-        background-image: url(../images/virat.jpg);
-    }
-    25%{
-        background-image: url(../images/saree1.jpg);
-    }
-
-    50% {
-        background-image: url(../images/winter1.jpg);
-    }
-
-    75% {
-        background-image: url(../images/tshirt.jpg);
+        background-image: url(../images/cloth.jpg);
     }
 
     100% {
         background-image: url(../images/jeans.jpg);
+    }
+}
+@keyframes slider4a {
+    0% {
+        background-image: url(../images/book.jpg);
+    }
+    25%{
+        background-image: url(../images/cap.jpg);
+    }
+
+    50% {
+        background-image: url(../images/charge.jpg);
+    }
+
+    75% {
+        background-image: url(../images/chair.jpg);
+    }
+
+    100% {
+        background-image: url(../images/cover.jpg);
     }
 }
 
@@ -786,9 +835,20 @@ font-family: "Anton SC", sans-serif;
  #detail0{
     font-family: "Anton SC", sans-serif;
  }
+ .detailpage p{
+    font-family: "Playfair Display", serif;
+ }
  @media screen and (max-width: 600px) {
     .detailpage{
     flex-direction: column;  
+    }
+    .detailpage1 img{
+        height: 290px;
+        width: 290px;
+        
+    }
+    .detailpage1 button{
+        margin-left: -0px;
     }
 }
 
