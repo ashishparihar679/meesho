@@ -671,6 +671,7 @@ section a {
 @media screen and (max-width: 800px)and (min-width: 400px){
     .aboutdiv{
         flex-wrap: wrap;
+        /* flex-direction: column; */
     }
     .aboutdiv3 {
    display: flex;
@@ -681,7 +682,8 @@ section a {
 }
 @media screen and (max-width: 400px){
     .aboutdiv{
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
     }
 }
 
